@@ -14,3 +14,5 @@ $ rm -f .git/index.lock
 1) git add "file"
 2)git commit
 3)git push
+
+3.Если при попытке коммита выдаёт какую-то дрянь, то пиши git commit -m "имя файла"
