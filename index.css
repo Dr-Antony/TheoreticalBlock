@@ -22,3 +22,8 @@
 .rem11 {
     font-size: 2.5rem;
 }
+.line1 {
+    width: 100%;
+    height: 15px;
+    background-color: rgb(224, 24, 24);
+}
