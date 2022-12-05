@@ -1,200 +1,221 @@
 .content-1 {
-    font-family: 'Marck Script', cursive;
-    font-size: 3em;
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
 }
+
 .line {
-    background-color: firebrick;
-    height: 5px;
-    margin: 50px 0;
-    border-radius: 100%;
+  background-color: firebrick;
+  height: 5px;
+  margin: 50px 0;
+  border-radius: 100%;
 }
+
 .content-1__image {
-    margin-left: 40%;
-    border-radius: 100%;
+  margin-left: 40%;
+  border-radius: 100%;
 }
+
 .content-1__block {
-    block-size: border-box;
-    padding: 50px;
-    margin: 50px 50px 50px 50px;
-    background-color: rgb(141, 110, 110);
-    border-radius: 10%;
+  block-size: border-box;
+  padding: 50px;
+  margin: 50px 50px 50px 50px;
+  background-color: rgb(141, 110, 110);
+  border-radius: 10%;
 }
 
 /* ....................................................................... */
 .block-2 {
-    background: linear-gradient(#222 #555);
- }
+  background: linear-gradient(#222 #555);
+}
+
 .wrapper {
-    padding: 100px 100px 30vh ;
-    height: 100vh;
+  padding: 100px 100px 30vh;
+  height: 100vh;
 }
+
 .block-2 {
-    height: 100%;
-    box-shadow: 0 0 10px rgb(83, 83, 83);
-    border-radius: 2%;
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 2%;
 }
+
 .block-2 {
-  background: radial-gradient(270deg,#222 #790);
+  background: radial-gradient(270deg, #222 #790);
   background: linear-gradient(#254 #346);
   /* background: url(https://picsum.photos/200/300) 0 0 / contain ; */
   /* background: url(https://picsum.photos/200/300) 25% 25% / cover no-repeat ; */
-  background: url(https://picsum.photos/200/300) 0 0   / auto no-repeat, url(https://picsum.photos/seed/picsum/200/300) 0 0 / cover no-repeat  ; 
-  
+  background: url(https://picsum.photos/200/300) 0 0 / auto no-repeat, url(https://picsum.photos/seed/picsum/200/300) 0 0 / cover no-repeat;
+
 }
 
 /* ....................................................................... */
 .wrapper-1 {
-    padding: 100px 15px;
-    height: 100vh;
+  padding: 100px 15px;
+  height: 100vh;
 }
+
 .conteiner {
-    margin: 0 auto;
-    max-width: 1000px;
-    height: 100%;
-    border: 10px solid #999;
-    display: flex;
-    position: relative; 
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  border: 10px solid #999;
+  display: flex;
+  position: relative;
 }
+
 .block1 {
-    height: 300px;
-    width: 100%;
-    max-width: 200px;
-    border-radius: 10px;
-    box-shadow: inset 0 0 20px rgba(rgb(0, 0, 0), green, blue, alpha);
+  height: 300px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 20px rgba(rgb(0, 0, 0), green, blue, alpha);
 }
 
 .red {
-    background-color: rgb(212, 23, 64);
+  background-color: rgb(212, 23, 64);
 }
+
 .blue {
-    background-color: rgb(90, 98, 207);
+  background-color: rgb(90, 98, 207);
 }
+
 .orange {
-    background-color: rgb(253, 147, 48);
+  background-color: rgb(253, 147, 48);
 }
+
 .green {
-    background-color: rgb(78, 146, 1);
+  background-color: rgb(78, 146, 1);
 }
+
 .purple {
-    background-color: rgb(165, 0, 165);
+  background-color: rgb(165, 0, 165);
 }
+
 /* ....................................................................... */
 
 .blue {
-    position: sticky;
-    top: 200px;
+  position: sticky;
+  top: 200px;
 
-    /* position: relative;
+  /* position: relative;
     top: 100px;
     left: 100px;
     z-index: -1 ; */
 }
+
 .orange {
-    position: sticky;
-    top: 150px;
+  position: sticky;
+  top: 150px;
 
 
-    /* position: absolute;
+  /* position: absolute;
     top: 300px;
     left: 80%; */
 }
-.red {
-    position: sticky;
-    top: 100px;
 
-    /* position: fixed;
+.red {
+  position: sticky;
+  top: 100px;
+
+  /* position: fixed;
     top: 50%;
     left: 50%;
     z-index: -1; */
 }
 
 .green {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
+
 .purple {
-    position: sticky;
-    top: 250px;
+  position: sticky;
+  top: 250px;
 }
+
 /* .................................................................. */
 
 
-  
-  .container3 {
-    margin: 0 auto;
-    max-width: 800px;
-  }
-  
-  .translate,
-  .rotate,
-  .scale,
-  .skew {
-    padding: 100px 0;
-  }
-  
-  h2 {
-    font-family: sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 100px;
-  }
-  
-  .translate__blocks,
-  .rotate__blocks,
-  .scale__blocks,
-  .skew__blocks {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .red3,
-  .blue3 {
-    width: 300px;
-    height: 300px;
-  }
-  
-  .red3 {
-    background-color: rgba(240, 82, 82, 0.699);
-  }
-  
-  .blue3 {
-    background-color: rgba(102, 102, 228, 0.671);
-  }
+
+.container3 {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.translate,
+.rotate,
+.scale,
+.skew {
+  padding: 100px 0;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.translate__blocks,
+.rotate__blocks,
+.scale__blocks,
+.skew__blocks {
+  display: flex;
+  justify-content: center;
+}
+
+.red3,
+.blue3 {
+  width: 300px;
+  height: 300px;
+}
+
+.red3 {
+  background-color: rgba(240, 82, 82, 0.699);
+}
+
+.blue3 {
+  background-color: rgba(102, 102, 228, 0.671);
+}
 
 /* ................................................................... */
 
 .translate__red3 {
-    transform: translate(-100px , 100px);
+  transform: translate(-100px, 100px);
 
 }
+
 .translate__blue3 {
-transform: translate(100px, -90px);
+  transform: translate(100px, -90px);
 }
 
 .rotate__red3 {
-    transform: rotateZ(300deg);
-    transform-origin: left top;
-    
+  transform: rotateZ(300deg);
+  transform-origin: left top;
+
 
 }
+
 .rotate__blue3 {
-transform: rotate(45deg);
+  transform: rotate(45deg);
 
 }
 
 .scale__red3 {
-transform: scaleY(1.2);
+  transform: scaleY(1.2);
 }
+
 .scale__blue3 {
-transform: scale(0.7);
+  transform: scale(0.7);
 }
 
 .skew__red3 {
-    transform: skew(210deg);
+  transform: skew(210deg);
 
 }
+
 .skew__blue3 {
-    transform: skew(150deg);
+  transform: skew(150deg);
 }
 
 
@@ -203,225 +224,530 @@ transform: scale(0.7);
 /* ............................................................. */
 
 .container7 {
-    padding: 100px 100px 50vh;
-    height: 100%;
-  }
-  
-  .transition {
-    height: 100%;
-  }
-  
-  .button {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    background-color: #555;
-  }
-  
-  .block7 {
-    width: 10px;
-    height: 150px;
-  }
-  
-  .red7 {
-    background-color: rgb(221, 108, 108);
-  }
-  .blue7 {
-    background-color: rgb(116, 108, 221);
-  }
-  .orange7 {
-    background-color: rgb(221, 163, 108);
-  }
-  .purple7 {
-    background-color: rgb(166, 108, 221);
-  }
-  
-  .transition:hover .block7 {
-    width: 100%;
-  }
+  padding: 100px 100px 50vh;
+  height: 100%;
+}
 
-  /* ..................................................... */
+.transition {
+  height: 100%;
+}
 
-  .button {
-    transition: border-radius 3s , background-color 3s 3s ;
-/* transition-duration: ; */
-/* transition-property: ; */
-/* transition-delay: ; */
-/* transition-timing-function: ; */
-  }
+.button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: #555;
+}
 
-  .button:hover {
-    background-color: #254;
-    border-radius: 100px;
-  }
+.block7 {
+  width: 10px;
+  height: 150px;
+}
 
-  .block7 {
-    transition: 1s ;
-  } 
+.red7 {
+  background-color: rgb(221, 108, 108);
+}
 
-  .red7 {
-    transition-timing-function: ease ;
-  }
-  .blue7 {
-    transition-timing-function: ease-in;
-  }
-  .orange7 {
-    transition-timing-function: ease-out ;
-  }
-  .purple7 {
-    transition-timing-function: ease-in-out ;
-  }
+.blue7 {
+  background-color: rgb(116, 108, 221);
+}
+
+.orange7 {
+  background-color: rgb(221, 163, 108);
+}
+
+.purple7 {
+  background-color: rgb(166, 108, 221);
+}
+
+.transition:hover .block7 {
+  width: 100%;
+}
+
+/* ..................................................... */
+
+.button {
+  transition: border-radius 3s, background-color 3s 3s;
+  /* transition-duration: ; */
+  /* transition-property: ; */
+  /* transition-delay: ; */
+  /* transition-timing-function: ; */
+}
+
+.button:hover {
+  background-color: #254;
+  border-radius: 100px;
+}
+
+.block7 {
+  transition: 1s;
+}
+
+.red7 {
+  transition-timing-function: ease;
+}
+
+.blue7 {
+  transition-timing-function: ease-in;
+}
+
+.orange7 {
+  transition-timing-function: ease-out;
+}
+
+.purple7 {
+  transition-timing-function: ease-in-out;
+}
 
 
-  /* ...................................................................... */
+/* ...................................................................... */
 
-  .wrapper12 {
-    padding: 50px;
-    height: 300px;
-    background-color: brown;
-  }
-  
-  .container12 {
-    position: relative;
-    height: 200px;
-    background-color: #444;
-  }
-  
-  .block12 {
-    background-color: #fff;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-  }
+.wrapper12 {
+  padding: 50px;
+  height: 300px;
+  background-color: brown;
+}
+
+.container12 {
+  position: relative;
+  height: 200px;
+  background-color: #444;
+}
+
+.block12 {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
 
 
 /* .............................................................................. */
 
 .block12 {
-    animation: move-block12 4s linear infinite alternate ,
-    color-block 1s 3s   ;
+  animation: move-block12 4s linear infinite alternate,
+    color-block 1s 3s;
 
 
-/* animation-name */
-/* animation-duration: ; */
-/* animation-timing-function: ; */
-/* animation-iteration-count: 3; */
-/* -o-animation-direction: ; */
-/* animation-delay: ; */
-/* animation-fill-mode: forwards; */
+  /* animation-name */
+  /* animation-duration: ; */
+  /* animation-timing-function: ; */
+  /* animation-iteration-count: 3; */
+  /* -o-animation-direction: ; */
+  /* animation-delay: ; */
+  /* animation-fill-mode: forwards; */
 }
+
 .block12:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 
 @keyframes move-block12 {
-    0% {
-left: 0;
-    }
-    50% {
-        border-radius: 50%;
-    }
-    100% {
-left: calc(100% - 200px);
-    }
+  0% {
+    left: 0;
+  }
+
+  50% {
+    border-radius: 50%;
+  }
+
+  100% {
+    left: calc(100% - 200px);
+  }
 }
 
 @keyframes color-block {
-    
-    100% {
-        background-color: lime;
-    }
+
+  100% {
+    background-color: lime;
+  }
 }
 
 /* .............................................................................. */
 
 .wrapper13 {
-    padding: 50px;
-    height: 100%;
-  }
-  
-  .flexbox {
-    border: 20px solid rgb(231, 203, 172);
-    margin-bottom: 20px;
-  }
-  
-  .flexbox__item {
-    border: 20px solid rgb(143, 119, 91);
-  }
-  
-  .flexbox__item-content {
-    background-color: rgb(83, 64, 44);
-    text-align: center;
-    padding: 50px;
-    font-size: 3rem;
-  }
-  
-  /* .flexbox__item:nth-child(2) .flexbox__item-content {
+  padding: 50px;
+  height: 100%;
+}
+
+.flexbox {
+  border: 20px solid rgb(231, 203, 172);
+  margin-bottom: 20px;
+}
+
+.flexbox__item {
+  border: 20px solid rgb(143, 119, 91);
+}
+
+.flexbox__item-content {
+  background-color: rgb(83, 64, 44);
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
+
+/* .flexbox__item:nth-child(2) .flexbox__item-content {
     padding: 75px 50px;
   } */
-  
-  .desc {
-    display: flex;
-  }
-  
-  .desc__item {
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
-  }
-  
-  .desc__color {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    border: 1px solid #fff;
-  }
-  
-  .desc__color--f {
-    background-color: rgb(231, 203, 172);
-  }
-  .desc__color--i {
-    background-color: rgb(143, 119, 91);
-  }
-  .desc__color--c {
-    background-color: rgb(83, 64, 44);
-  }
+
+.desc {
+  display: flex;
+}
+
+.desc__item {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.desc__color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+}
+
+.desc__color--f {
+  background-color: rgb(231, 203, 172);
+}
+
+.desc__color--i {
+  background-color: rgb(143, 119, 91);
+}
+
+.desc__color--c {
+  background-color: rgb(83, 64, 44);
+}
 
 
 /* .............................................................................. */
 
 .flexbox {
-    display: flex ;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    /* align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* align-items: flex-start;
     align-items: flex-end; */
 
 }
 
-.flexbox__item{
-    flex-basis: 300px;
+.flexbox__item {
+  flex-basis: 300px;
 }
 
 
 .flexbox__item:first-child {
-/* align-self: end;
+  /* align-self: end;
 order: 3; */
 }
+
 .flexbox__item:nth-child(2) {
-    flex-grow: 1;
-    flex-shrink: 0;
-/* order: 2; */
+  flex-grow: 1;
+  flex-shrink: 0;
+  /* order: 2; */
 }
 
 .flexbox__item:last-child {
-    /* align-self: center;
+  /* align-self: center;
     order: 1 ; */
 }
+
+
 /* .......................................................................... */
+
+.wrapper14 {
+  padding: 50px;
+  min-height: 100%;
+}
+
+.container13 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid {
+  margin-bottom: 200px;
+  padding-bottom: 200px;
+  border-bottom: 10px solid #363636;
+  min-height: 100vh;
+}
+
+.item {
+  border: 5px dashed #444;
+  font-size: 40px;
+  padding: .8em;
+  text-align: center;
+}
+
+
+
+/* .......................................................................... */
+
+
+.grid-1 {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto; */
+  grid-template: auto auto / repeat(3, 1fr);
+}
+
+/* ................... */
+.grid-2 {
+  display: grid;
+  grid-template:
+
+    "header header"1fr "main aside "5fr "footer footer"2fr / 1fr 300px;
+}
+
+.grid-2__item--header {
+  grid-area: header;
+}
+
+.grid-2__item--main {
+  grid-area: main;
+}
+
+.grid-2__item--aside {
+  grid-area: aside;
+}
+
+.grid-2__item--footer {
+  grid-area: footer;
+}
+
+/* ................... */
+
+.grid-3 {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  /* grid-auto-rows: 400px; */
+  /* grid-auto-columns: 300px; */
+  grid-auto-flow: dense;
+}
+
+.grid-3__item--6 {
+  grid-column: span 2;
+}
+
+/* ................... */
+
+.grid-4 {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.grid-4__item--3 {
+  grid-row: 2/3;
+  grid-column: 2/4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+/* .......................................................... */
+/* Псевдоклассы: hover, visited, active, focus, first-child */
+.wrapper001 {
+
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2rem;
+
+}
+
+.wrapper01 {
+  padding: 50px;
+  min-height: 100%;
+}
+
+.container01 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.link1 {
+  display: block;
+  background-color: #555;
+  border-radius: 2em;
+  padding: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 100px;
+  font-size: inherit;
+}
+
+.button01 {
+  display: block;
+  background-color: #555;
+  border-radius: 2em;
+  padding: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: inherit;
+  color: inherit;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+
+
+/* ........................................................... */
+.link1:visited {
+  background-color: #254;
+}
+
+.link1:hover {
+  background-color: greenyellow;
+  transition: background-color 3s;
+}
+
+.link1:active {
+  background-color: brown;
+}
+
+.input1:focus {
+  box-shadow: 0 0 10px 10px rgb(167, 227, 235);
+  transition: box-shadow 3s;
+}
+
+.button01:focus {
+  box-shadow: 0 0 10px 10px rgb(167, 227, 235);
+  transition: box-shadow 1s;
+
+}
+
+:focus {
+  box-shadow: 0 0 10px 10px rgb(167, 227, 235);
+  transition: box-shadow 3s;
+}
+
+.list__item:first-child {
+  color: brown;
+}
+
+.list__item:last-child {
+  color: darkblue;
+}
+
+.list__item:nth-child(5) {
+  color: orchid;
+}
+
+
+/* ................................................................ */
+
+.bgtx {
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+
+.wrapper002 {
+  padding: 50px;
+  min-height: 100%;
+}
+
+.container002 {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.link002,
+.list002,
+.block002 {
+  margin-bottom: 100px;
+}
+
+.block002 {
+  background-color: rgb(199, 105, 105);
+  width: 100%;
+  height: 200px;
+  max-width: 200px;
+  border-radius: 1rem;
+}
+
+.link002 {
+  align-self: flex-start;
+  background-color: rgb(111, 105, 199);
+  border-radius: 1rem;
+  padding: 2rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ......................................................... */
+.block-wrapper {
+  position: relative;
+}
+
+.block-wrapper::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "before";
+  background-color: rgb(199, 105, 105);
+  width: 100%;
+  height: 200px;
+  max-width: 200px;
+  border-radius: 1rem;
+
+}
+
+.block-wrapper::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "after";
+  background-color: rgb(199, 105, 105);
+  width: 100%;
+  height: 200px;
+  max-width: 200px;
+  border-radius: 1rem;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+
+}
+
+.list002__item::before {
+  content: "";
+  display: inline-block;
+  background-color: blueviolet;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.link002::after {
+  display: inline-block;
+  content: "";
+  width: 1em;
+  height: 1em;
+  background: url(ICON.jpg) 0 0 / 100% 100%;
+}
+
+.link002:hover::after {
+  background: url(https://i.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4) 0 0 / 100% 100%;
+  transition: background 3s;
+}
+
+.text::first-line {
+  color: darkturquoise;
+}
